@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título del Boletín</title>
+    <style>
+        /* Aplica estilos aquí */
+
+        body {
+            font-family: 'Future Round', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #8087c1; /* Color de fondo movido al container */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #6b3b8f;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        p {
+            line-height: 1.6em;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        .web-version {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="web-version">
+            Si no ves correctamente este correo, pulsa <a href="{{ web_version }}">aquí</a>.
+        </p>
+        <!-- Aquí puedes agregar la etiqueta <img> con la URL de tu imagen -->
+        <img src="url_de_tu_imagen.jpg" alt="Descripción de la imagen">
+
+        <h1>Título del Boletín</h1>
+        <p>¡Hola [Nombre]!</p>
+        <p>Contenido del boletín aquí.</p>
+        <p>Puedes acceder a más información haciendo clic en el siguiente enlace:</p>
+        <p><a href="https://tuelink.com" class="btn">Ir al enlace</a></p>
+    </div>
+</body>
+
+</html>
